@@ -1,0 +1,6 @@
+{
+  "name": "MyNeighbourhood",
+  "description": "Smart, AI-powered community issue resolution platform connecting citizens and municipal authorities with predictive analytics and gamification.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
