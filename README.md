@@ -7,7 +7,32 @@ MyNeighbourhood is an intelligent civic engagement platform that enables citizen
 Designed for hackathons like the **Google Solution Challenge**, MyNeighbourhood bridges the communication gap between citizens and municipal authorities by providing a fast, AI-assisted, and transparent complaint management system.
 
 ---
+# 📷 Screenshots
 
+## 🏠 Home Page
+
+![Home Page](screenshots/home.png)
+
+---
+
+## 📍 Complaint Submission
+
+![Complaint Submission](screenshots/report.png)
+
+---
+
+
+## 🛡️ Administrator Dashboard
+
+![Administrator Dashboard](screenshots/admin.png)
+
+---
+
+## 👷 Officer Dashboard
+
+![Officer Dashboard](screenshots/officer.png)
+
+---
 ## 🌟 Features
 
 ### 🤖 AI-Powered Issue Detection
@@ -212,34 +237,6 @@ The application will be available at:
 ```
 https://civicpulse-ai-630509201643.asia-southeast1.run.app/
 ```
-
----
-
-
-# 📷 Screenshots
-
-## 🏠 Home Page
-
-![Home Page](screenshots/home.png)
-
----
-
-## 📍 Complaint Submission
-
-![Complaint Submission](screenshots/report.png)
-
----
-
-
-## 🛡️ Administrator Dashboard
-
-![Administrator Dashboard](screenshots/admin.png)
-
----
-
-## 👷 Officer Dashboard
-
-![Officer Dashboard](screenshots/officer.png)
 
 ---
 
