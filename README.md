@@ -1,431 +1,314 @@
 # 🏘️ MyNeighbourhood
-## *Your Voice. Your Community. Your Impact.*
 
-<div align="center">
+> **AI-Powered Smart Civic Issue Reporting Platform built using Google Gemini & Google Maps**
 
-### 🚀 AI-Powered Civic Intelligence Platform
+MyNeighbourhood is an intelligent civic engagement platform that enables citizens to report local infrastructure and public service issues in just a few clicks. By leveraging **Google Gemini AI** for image analysis and **Google Maps** for precise location tagging, the platform automatically classifies complaints, determines their severity, and routes them through a transparent workflow from reporting to resolution.
 
-*Transforming citizen complaints into intelligent, actionable solutions using Google's Gemini AI.*
-
-[![React](https://img.shields.io/badge/React-18-blue.svg)]()
-[![Node.js](https://img.shields.io/badge/Node.js-Express-green.svg)]()
-[![Google Gemini](https://img.shields.io/badge/Powered%20By-Google%20Gemini-red.svg)]()
-[![Vite](https://img.shields.io/badge/Built%20With-Vite-purple.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)]()
-
-**🏆 Built for AI-Powered Civic Innovation**
-
-</div>
+Designed for hackathons like the **Google Solution Challenge**, MyNeighbourhood bridges the communication gap between citizens and municipal authorities by providing a fast, AI-assisted, and transparent complaint management system.
 
 ---
 
-# 📽 Demo
+## 🌟 Features
 
-🎥 **Demo Video:** *(Add YouTube/Drive Link Here)*
-
-🌐 **Live Demo:** *(Add Deployment Link Here)*
-
-📄 **Presentation:** *(Add Slides Link Here)*
-
----
-
-# 🎯 The Problem
-
-Cities receive thousands of civic complaints every month.
-
-Unfortunately, existing complaint systems are largely **reactive**, **manual**, and **opaque**.
-
-Citizens often experience:
-
-- ❌ Long complaint processing times
-- ❌ No transparency after submitting reports
-- ❌ Incorrect department routing
-- ❌ Duplicate complaints
-- ❌ Poor prioritization of critical hazards
-- ❌ Lack of community engagement
-
-Municipal officers also struggle with manually reviewing every report before assigning resources.
-
-This leads to delayed infrastructure repairs, inefficient workforce allocation, and declining public trust.
+### 🤖 AI-Powered Issue Detection
+- Upload an image of a civic issue
+- Google Gemini Vision analyzes the image
+- Automatically generates:
+  - Issue title
+  - Detailed description
+  - Category
+  - Severity level
+  - Suggested municipal department
 
 ---
 
-# 💡 Our Solution
-
-MyNeighbourhood is an **AI-powered civic operations platform** that acts as an intelligent bridge between citizens and municipal authorities.
-
-Instead of merely collecting complaints, our platform autonomously:
-
-🧠 Understands uploaded images
-
-📍 Identifies location-based context
-
-⚡ Determines issue severity
-
-🏢 Routes complaints to the correct department
-
-👥 Uses community validation for prioritization
-
-📊 Assists officers throughout the resolution lifecycle
-
-This significantly reduces manual intervention while improving transparency and response times.
+### 📍 Google Maps Integration
+- Interactive map for selecting issue location
+- Reverse geocoding for accurate address retrieval
+- Geo-tagged complaints for precise issue tracking
 
 ---
 
-# 🤖 Agentic AI Workflow
-
-Unlike traditional AI chatbots, MyNeighbourhood uses multiple autonomous AI agents working together.
-
-```text
-Citizen uploads issue
-        │
-        ▼
-🧠 AI Vision Agent
-Detects damage from image
-        │
-        ▼
-🧠 AI Reasoning Agent
-Determines severity
-Generates summary
-Assigns department
-        │
-        ▼
-🧠 Prioritization Agent
-Ranks issue using:
-• Severity
-• Community Votes
-• User Proximity
-        │
-        ▼
-👮 Officer Dashboard
-Receives AI-prioritized task
-        │
-        ▼
-Citizen receives live updates
-```
+### 👤 Citizen Dashboard
+- Register civic complaints
+- View complaint history
+- Track complaint status in real-time
+- Monitor complete issue lifecycle
+- Receive transparent updates
 
 ---
 
-# 🧠 AI Agents
-
-## 🚨 AI Triage Agent
-
-Powered by **Google Gemini 1.5 Flash Vision**
-
-Automatically:
-
-- Detects civic issue type
-- Identifies hazards
-- Generates structured reports
-- Estimates severity
-- Assigns responsible department
-- Produces concise summaries
-
-**Result:** Reduces manual complaint triage from several minutes to a few seconds.
+### 🛡️ Administrator Dashboard
+- View all submitted complaints
+- Verify AI-generated reports
+- Reject duplicate or invalid reports
+- Assign complaints to municipal officers
+- Monitor overall complaint statistics
+- Track department workloads
 
 ---
 
-## 💬 Civic AI Assistant
-
-A grounded conversational assistant capable of answering questions like:
-
-- "Has my pothole been assigned?"
-- "Which ward has the most complaints?"
-- "Why is my issue delayed?"
-- "Who handles drainage problems?"
-
-Unlike generic chatbots, responses are grounded using live civic data.
-
----
-
-## 🛠 Officer Assistant
-
-Supports municipal officers by:
-
-- Explaining issue context
-- Displaying AI-generated summaries
-- Tracking work progress
-- Enforcing evidence-backed closures
-
----
-
-# ✨ Key Features
-
-## 📍 Smart Civic Map
-
-- Interactive city visualization
-- Live issue markers
-- Geolocation reporting
-- Category filtering
-- Hotspot identification
-
----
-
-## 📷 AI-Powered Issue Reporting
-
-Simply upload an image.
-
-Gemini automatically:
-
-✔ Detects issue
-
-✔ Generates description
-
-✔ Predicts severity
-
-✔ Routes department
-
-✔ Creates structured complaint
-
----
-
-## 📊 Intelligent Priority Queue
-
-Instead of FIFO ordering, complaints are ranked using:
-
-- AI severity
-- Community votes
-- User proximity
-- Pending duration
-
-Ensuring the most impactful issues receive immediate attention.
-
----
-
-## 👥 Community Verification
-
-Citizens can:
-
-- Upvote issues
-- Validate nearby reports
-- Increase issue credibility
-- Help municipalities prioritize resources
-
----
-
-## 👮 Officer Dashboard
-
-Municipal authorities can:
-
-- View assigned tasks
-- Update progress
+### 👷 Officer Dashboard
+- Personalized officer workspace
+- View assigned complaints
+- Update complaint status
+- Add work logs and remarks
 - Upload repair evidence
-- Resolve issues
-- Track workload
+- Mark issues as resolved
 
 ---
 
-## 🎮 Civic Gamification
-
-Citizens earn XP for:
-
-- Reporting issues
-- Verifying reports
-- Community participation
-- Successful resolutions
-
-Rewards include:
-
-- Transit vouchers
-- Library coupons
-- Community rewards
-- Local sponsor offers
+### 📸 Resolution Evidence System
+- Upload completion photographs
+- Attach repair evidence before closing issues
+- Enables transparent verification
+- Prevents false complaint closures
 
 ---
 
-# 🏗 System Architecture
+### 🚦 Smart Complaint Workflow
 
 ```text
-                Citizens
-                    │
-                    ▼
-        React + Tailwind Frontend
-                    │
-                    ▼
-          Express Backend API
-                    │
-      ┌─────────────┴─────────────┐
-      │                           │
-      ▼                           ▼
-Google Gemini AI           Civic Database
-      │                           │
-      ▼                           ▼
-AI Classification          Issue Records
-Severity Analysis          Community Votes
-Department Routing         Officer Updates
-AI Summaries               Analytics
+Citizen Report
       │
-      └─────────────┬──────────────┘
-                    ▼
-          Officer Dashboard
-                    │
-                    ▼
-             Issue Resolution
+      ▼
+ AI Analysis (Gemini)
+      │
+      ▼
+ Administrator Verification
+      │
+      ▼
+ Officer Assignment
+      │
+      ▼
+ In Progress
+      │
+      ▼
+ Resolution Evidence
+      │
+      ▼
+ Resolved
+      │
+      ▼
+ Closed
 ```
 
 ---
 
-# ☁ Google Technologies Used
+### 🚨 Severity-Based Prioritization
 
-| Technology | Usage |
-|------------|------|
-| **Google Gemini 1.5 Flash** | Vision-based issue detection and intelligent reasoning |
-| **Gemini Vision** | Image understanding |
-| **Google AI Studio** | AI prompt engineering and rapid prototyping |
-| **Google GenAI SDK** | Backend AI integration |
-| **Gemini Chat** | Grounded conversational assistant |
+Complaints are intelligently classified as:
+
+- 🔴 Critical
+- 🟠 High
+- 🟡 Medium
+- 🟢 Low
+
+Critical issues receive higher visibility and priority.
 
 ---
 
-# ⚙ Tech Stack
+## 🏗️ Tech Stack
 
 ### Frontend
 
-- React 18
+- React.js
 - Vite
+- JavaScript (ES6+)
 - Tailwind CSS
-- Lucide React
 
-### Backend
+### UI
 
-- Node.js
-- Express.js
+- Lucide React Icons
+- Responsive Layout
+- Modern Dashboard Components
 
-### AI
+### Artificial Intelligence
 
-- Google Gemini 1.5 Flash
-- Google GenAI SDK
-- Google AI Studio
+- Google Gemini API
+- Gemini Vision Model
 
-### Tooling
+### Maps & Location
 
-- npm
-- Vite
-- esbuild
-- Git
-- GitHub
+- Google Maps JavaScript API
+- Geolocation API
+- Reverse Geocoding
 
----
+### State Management
 
-# 📈 Expected Impact
+- React Hooks
+- useState
 
-| Metric | Improvement |
-|---------|-------------|
-| Complaint Classification | Automated |
-| Department Routing | AI Assisted |
-| Manual Review Time | Reduced significantly |
-| Citizen Transparency | Real-Time |
-| Community Participation | Increased through Gamification |
-| Officer Productivity | AI Assisted |
+### Deployment
+
+- Vercel
 
 ---
 
-# 🚀 Future Roadmap
+# ☁️ Google Technologies Used
 
-- ✅ Duplicate complaint detection
-- ✅ Predictive infrastructure maintenance
-- ✅ Multilingual AI Assistant
-- ✅ Google Maps integration
-- ✅ Push notifications
-- ✅ Offline mobile reporting
-- ✅ Smart city analytics
-- ✅ AI resource allocation
+## 🧠 Google Gemini API
+
+Google Gemini powers the intelligent complaint generation by:
+
+- Understanding uploaded images
+- Identifying civic issues
+- Generating issue titles
+- Writing complaint descriptions
+- Predicting severity
+- Recommending responsible departments
 
 ---
 
-# 📂 Project Structure
+## 📍 Google Maps Platform
 
-```
-MyNeighbourhood
+Used for:
+
+- Interactive map
+- Location selection
+- Reverse geocoding
+- Accurate complaint localization
+
+---
+
+## 🌍 Geolocation Services
+
+- Detects user location
+- Simplifies complaint submission
+- Improves location accuracy
+
+---
+
+## 📂 Project Structure
+
+```text
+MyNeighbourhood/
 │
-├── assets
-├── src
-│   ├── components
+├── public/
+│
+├── src/
+│   ├── components/
+│   │     ├── CitizenDashboard.jsx
+│   │     ├── AdminDashboard.jsx
+│   │     ├── OfficerDashboard.jsx
+│   │     ├── IssueCard.jsx
+│   │     ├── Navbar.jsx
+│   │     └── ...
+│   │
+│   ├── services/
+│   │     ├── gemini.js
+│   │     ├── maps.js
+│   │     └── ...
+│   │
+│   ├── types/
+│   ├── utils/
 │   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
+│   └── main.jsx
 │
-├── server.js
 ├── package.json
-├── metadata.json
-├── vite.config.ts
 └── README.md
 ```
 
 ---
 
-# ⚡ Installation
+# 🚀 Getting Started
+
+## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/MyNeighbourhood.git
+git clone https://github.com/sohaanigupta18/MyNeighbourhood.git
 
 cd MyNeighbourhood
+```
 
+---
+
+## 2. Install Dependencies
+
+```bash
 npm install
+```
 
+---
+
+## 3. Configure Environment Variables
+
+Create a `.env` file in the root directory.
+
+```env
+VITE_GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+
+VITE_GOOGLE_MAPS_API_KEY=YOUR_GOOGLE_MAPS_API_KEY
+```
+
+---
+
+## 4. Run the Development Server
+
+```bash
 npm run dev
 ```
 
-Backend
+The application will be available at:
 
-```bash
-node server.js
 ```
-
-Environment Variables
-
-```env
-GEMINI_API_KEY=YOUR_API_KEY
+http://localhost:5173
 ```
 
 ---
 
-# 📸 Screenshots
+# 📷 Screenshots
 
-| Home | AI Reporting |
-|-------|--------------|
-| *(Add Screenshot)* | *(Add Screenshot)* |
+Add screenshots of:
 
-| Officer Dashboard | Leaderboard |
-|-------------------|-------------|
-| *(Add Screenshot)* | *(Add Screenshot)* |
-
----
-
-# 🏆 Why MyNeighbourhood?
-
-✅ Solves a real-world civic challenge
-
-✅ AI-first architecture—not just an AI chatbot
-
-✅ Uses Google's Gemini ecosystem extensively
-
-✅ Autonomous multi-agent workflow
-
-✅ Production-ready UI/UX
-
-✅ Community-driven governance
-
-✅ Transparent issue lifecycle
-
-✅ Scalable for municipalities and smart cities
+- 🏠 Home Page
+- 📍 Complaint Submission
+- 🤖 AI Analysis
+- 👤 Citizen Dashboard
+- 🛡️ Admin Dashboard
+- 👷 Officer Dashboard
+- 📸 Resolution Evidence
+- 📊 Complaint Tracking
 
 ---
 
-# 👥 Team
+# 🎯 Problem Statement
 
-**Team Name:** *(Your Team Name)*
+Citizens often struggle to report civic issues due to fragmented systems, slow response times, and lack of transparency. Municipal authorities, on the other hand, face challenges in efficiently categorizing, prioritizing, and managing a large volume of complaints.
 
-Built with ❤️ to make cities smarter, safer, and more connected.
-
----
-
-# 📄 License
-
-MIT License
+MyNeighbourhood addresses these challenges by combining AI-powered image understanding with location intelligence to create a streamlined, transparent, and citizen-centric complaint management platform.
 
 ---
 
-# ⭐ Support
+# 💡 Future Enhancements
 
-If you like this project, please consider giving it a ⭐ on GitHub!
+- 🔔 Real-time notifications
+- 📱 Progressive Web App (PWA)
+- 🌐 Multi-language support
+- 🎙️ Voice-based complaint registration
+- 📈 AI-powered analytics dashboard
+- 📊 Heatmaps for issue density
+- 🤝 Community upvoting of issues
+- 📅 SLA tracking and reminders
+- 📦 Cloud database integration
+- 📱 Mobile application
+
+---
+
+
+# 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+# ❤️ Built With
+
+- React
+- Tailwind CSS
+- Google Gemini
+- Google Maps Platform
+- Vite
+- JavaScript
+
+---
