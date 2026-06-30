@@ -7,7 +7,6 @@ MyNeighbourhood is an intelligent civic engagement platform that enables citizen
 Designed for hackathons like the **Google Solution Challenge**, MyNeighbourhood bridges the communication gap between citizens and municipal authorities by providing a fast, AI-assisted, and transparent complaint management system.
 
 ---
-# 📷 Screenshots
 
 ## 🏠 Home Page
 
