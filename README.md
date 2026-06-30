@@ -179,37 +179,6 @@ Used for:
 
 ---
 
-## 📂 Project Structure
-
-```text
-MyNeighbourhood/
-│
-├── public/
-│
-├── src/
-│   ├── components/
-│   │     ├── CitizenDashboard.jsx
-│   │     ├── AdminDashboard.jsx
-│   │     ├── OfficerDashboard.jsx
-│   │     ├── IssueCard.jsx
-│   │     ├── Navbar.jsx
-│   │     └── ...
-│   │
-│   ├── services/
-│   │     ├── gemini.js
-│   │     ├── maps.js
-│   │     └── ...
-│   │
-│   ├── types/
-│   ├── utils/
-│   ├── App.jsx
-│   └── main.jsx
-│
-├── package.json
-└── README.md
-```
-
----
 
 # 🚀 Getting Started
 
@@ -231,19 +200,8 @@ npm install
 
 ---
 
-## 3. Configure Environment Variables
 
-Create a `.env` file in the root directory.
-
-```env
-VITE_GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-
-VITE_GOOGLE_MAPS_API_KEY=YOUR_GOOGLE_MAPS_API_KEY
-```
-
----
-
-## 4. Run the Development Server
+## 3. Run the Development Server
 
 ```bash
 npm run dev
@@ -252,46 +210,45 @@ npm run dev
 The application will be available at:
 
 ```
-http://localhost:5173
+https://civicpulse-ai-630509201643.asia-southeast1.run.app/
 ```
 
 ---
 
+
 # 📷 Screenshots
 
-Add screenshots of:
+## 🏠 Home Page
 
-- 🏠 Home Page
-- 📍 Complaint Submission
-- 🤖 AI Analysis
-- 👤 Citizen Dashboard
-- 🛡️ Admin Dashboard
-- 👷 Officer Dashboard
-- 📸 Resolution Evidence
-- 📊 Complaint Tracking
+![Home Page](screenshots/home.png)
 
 ---
+
+## 📍 Complaint Submission
+
+![Complaint Submission](screenshots/report.png)
+
+---
+
+
+## 🛡️ Administrator Dashboard
+
+![Administrator Dashboard](screenshots/admin.png)
+
+---
+
+## 👷 Officer Dashboard
+
+![Officer Dashboard](screenshots/officer.png)
+
+---
+
 
 # 🎯 Problem Statement
 
 Citizens often struggle to report civic issues due to fragmented systems, slow response times, and lack of transparency. Municipal authorities, on the other hand, face challenges in efficiently categorizing, prioritizing, and managing a large volume of complaints.
 
 MyNeighbourhood addresses these challenges by combining AI-powered image understanding with location intelligence to create a streamlined, transparent, and citizen-centric complaint management platform.
-
----
-
-# 💡 Future Enhancements
-
-- 🔔 Real-time notifications
-- 📱 Progressive Web App (PWA)
-- 🌐 Multi-language support
-- 🎙️ Voice-based complaint registration
-- 📈 AI-powered analytics dashboard
-- 📊 Heatmaps for issue density
-- 🤝 Community upvoting of issues
-- 📅 SLA tracking and reminders
-- 📦 Cloud database integration
-- 📱 Mobile application
 
 ---
 
